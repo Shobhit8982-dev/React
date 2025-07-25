@@ -1,5 +1,22 @@
 import React from "react";
 import ReactDOM from 'react-dom/client'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // const heading = React.createElement('h1', {id:'heading'}, 'hello from react'); 
     // const root = ReactDOM.createRoot(document.getElementById('root'));
     // root.render(heading);
@@ -30,19 +47,19 @@ import ReactDOM from 'react-dom/client'
 //     ])
 // ]);
 
-const Header = () => (
-  <div id="parent">
-    <div id="child">
-      <h1 key="h1-1">I am a H1 Tag</h1>
-      <h1 key="h1-2">I am a H1 Tag</h1>
-    </div>
-    <div id="child2">
-      <h1 key="h1-3">I am a H1 Tag</h1>
-      <h1 key="h1-4">I am a H1 Tag</h1>
-    </div>
-  </div>
-);
+// const Header = () => (
+//   <div id="parent">
+//     <div id="child">
+//       <h1 key="h1-1">I am a H1 Tag</h1>
+//       <h1 key="h1-2">I am a H1 Tag</h1>
+//     </div>
+//     <div id="child2">
+//       <h1 key="h1-3">I am a H1 Tag</h1>
+//       <h1 key="h1-4">I am a H1 Tag</h1>
+//     </div>
+//   </div>
+// );
 
-const root = ReactDOM.createRoot(document.getElementById('Header'));
-// root.render(Header);
-root.render(<Header />)
+// const root = ReactDOM.createRoot(document.getElementById('Header'));
+// // root.render(Header);
+// root.render(<Header />)
