@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from 'react-dom/client'
+// React Element
+const heading = (
+    <h1 classNmae = 'head' tabIndex={5}>react element using JSX </h1>
+);
 
-
-
-
+//react functional componenet
+const HeadingComponent = () => (
+    <h1>react functional componenet</h1>
+)
 
 
 
